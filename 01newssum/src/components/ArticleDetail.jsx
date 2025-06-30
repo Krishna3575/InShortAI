@@ -30,7 +30,7 @@ export default function ArticleDetail() {
 
   // Save to backend 
   try {
-    await axios.post('https://newsnuggets-backend.onrender.com/api/summaries', newSummary)
+    await axios.post('https://inshortai.onrender.com/api/summaries', newSummary)
     console.log("✅ Summary saved to MongoDB")
   } catch (err) {
     console.error("❌ Failed to save summary:", err.message)

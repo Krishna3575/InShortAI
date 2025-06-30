@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 // ✅ Your backend API URL
-const BASE_URL = ''
+const BASE_URL = 'https://inshortai.onrender.com/api/news'
 
 export const getNewsByCategory = async (category = 'general') => {
   try {
